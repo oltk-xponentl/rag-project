@@ -1,8 +1,11 @@
 langchain
 langchain-community
 langchain-chroma
+langchain-core
 langchain-huggingface
 langchain-ollama
-pypdf
+sentence-transformers
+tf-keras
+PyMuPDF
 streamlit
 chromadb
