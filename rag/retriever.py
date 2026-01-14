@@ -19,7 +19,7 @@ def get_vectorstore():
     )
     return vector_store
 
-def get_retriever(industry_filter=None, k=12):
+def get_retriever(industry_filter=None, k=6):
     """
     Creates a retriever that fetches the top K most relevant chunks.
     

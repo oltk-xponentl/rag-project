@@ -9,7 +9,7 @@ from langchain_chroma import Chroma
 
 CHROMA_PATH = "./chroma_db"
 DATA_PATH = "./data"
-BATCH_SIZE = 50  # Batch size for progress updates 
+BATCH_SIZE = 100  # Batch size for progress updates 
 
 def ingest_data():
     """
@@ -42,8 +42,8 @@ def ingest_data():
                     pages = loader.load()
                     
                     text_splitter = RecursiveCharacterTextSplitter(
-                        chunk_size=1000,
-                        chunk_overlap=200,
+                        chunk_size=480,
+                        chunk_overlap=70,
                         add_start_index=True
                     )
                     
