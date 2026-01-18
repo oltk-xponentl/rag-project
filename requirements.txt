@@ -9,3 +9,5 @@ tf-keras
 PyMuPDF
 streamlit
 chromadb
+rank_bm25
+flashrank

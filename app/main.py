@@ -62,7 +62,7 @@ for message in st.session_state.messages:
                     st.markdown(f"- **{src['source']}** (Page {src['page']})")
 
 # Chat Input
-if prompt := st.chat_input("Ask a question about Genpact's industries..."):
+if prompt := st.chat_input("Ask a question about 3 of Genpact's main industries..."):
     # 1. Display User Message
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
