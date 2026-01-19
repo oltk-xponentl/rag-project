@@ -93,12 +93,15 @@ if prompt := st.chat_input("Ask a question about 3 of Genpact's main industries.
                         for src in sources:
                             st.markdown(f"- **{src['source']}** (Page {src['page']})")
                 
-                # 3. Save to History
+            # 3. Save to History
                 st.session_state.messages.append({
                     "role": "assistant", 
                     "content": answer,
                     "sources": sources
                 })
+
+                # Force a rerun to clear manual renders and refresh the history loop
+                st.rerun()
                 
             except Exception as e:
                 st.error(f"An error occurred: {str(e)}")

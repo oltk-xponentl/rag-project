@@ -138,7 +138,11 @@ Use the "Knowledge Scope" sidebar to filter by industry, or select "All" for cro
 
 - _Expectation:_ Look for mentions of "China Plus One" strategies or diversification in the supply chain reports.
 
-## **🛡️ Guardrails**
+"UNCTAD reports a 5% decline in the value of greenfield industrial projects, yet IoT Analytics predicts a 13.5% CAGR boom in industrial software. What does this divergence suggest about the manufacturing investment strategy for 2025?"
+
+- _Expectation:_ Should highlight a strategic shift in manufacturing from physical expansion to digital optimization, where a pullback in capital-intensive greenfield projects is offset by aggressive investment in software to drive efficiency
+
+## **Guardrails**
 
 The system prompt includes explicit instructions to:
 
