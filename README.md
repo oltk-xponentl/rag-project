@@ -4,6 +4,8 @@ This repository contains a **Retrieval-Augmented Generation (RAG)** application 
 
 This architecture implements advanced retrieval strategies-including **Hybrid Search**, **Reranking**, **Relevance Gating** and **Adaptive Diversity Filtering** to solve common production issues like "Context Crowding" and hallucination on irrelevant queries.
 
+[View the App Here](https://unenslaved-radiogenic-tess.ngrok-free.dev/)
+
 ## **Key Features**
 
 ### **1\. Hybrid Retrieval (Ensemble)**
