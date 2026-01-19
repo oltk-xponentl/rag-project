@@ -1,6 +1,7 @@
 langchain
 langchain-community
 langchain-chroma
+langchain-classic
 langchain-core
 langchain-huggingface
 langchain-ollama
